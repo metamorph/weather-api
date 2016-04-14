@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/metamorph/weather-api.svg?branch=master)](https://travis-ci.org/metamorph/weather-api)
+
 # weather-api
 
 REST APIs for HipChat that exposes different weather services.
