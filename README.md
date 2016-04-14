@@ -1,6 +1,10 @@
 # weather-api
 
-FIXME
+REST APIs for HipChat that exposes different weather services.
+
+## WIP
+
+See [backlog](backlog.org)
 
 ## Prerequisites
 

@@ -1,0 +1,27 @@
+* Backlog
+** Setup Heroku account and bootstrap app
+
+To get a quick turn-around deployment to test the next step.
+
+** Create a Hipchat compatible endpoint
+Should support the webhook API: https://www.hipchat.com/docs/apiv2/webhooks#room_message
+
+#+BEGIN_EXAMPLE
+/weather <city>
+/weather at <city>
+#+END_EXAMPLE
+
+- Would be cool to use the Cards format
+
+** Implement a client for weather service
+
+- Needs to support current weather and simple forcast
+- Check how Heroku handles API-keys (it should be configurable without exposing it in the GIT repository)
+
+** Connect the Hipchat adapter to the weather api
+
+** Caching!
+
+- Add caching using https://github.com/clojure/core.memoize
+
+** Add more weather features || Add different frontend adapter (Slack?)
