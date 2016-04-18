@@ -3,6 +3,7 @@
             [ring.mock.request :as mock]
             [weather-api.handler :refer :all]))
 
+
 (deftest test-app
   (testing "main route"
     (let [response (app (mock/request :get "/"))]
